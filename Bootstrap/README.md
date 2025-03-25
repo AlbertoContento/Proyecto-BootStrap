@@ -1,6 +1,6 @@
 # 🌐 Proyecto Vite con BOOTSTRAP 5.3.3
 
-Este proyecto es una plantilla básica que integra Vite con BootStrap version 5.3.3.
+Este proyecto es una plantilla básica que integra Vite con BootStrap version 5.3.3 con algo de responsive.
 
 ## 🛠️ Tecnologías Utilizadas
 - Vite: Herramienta de compilación rápida para proyectos web modernos.
