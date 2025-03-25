@@ -53,4 +53,4 @@ Este proyecto está bajo la licencia MIT.
 🎨 Capturas de Pantalla
 Aquí tienes una vista previa de cómo luce el proyecto:
 
-![Pantalla Principal](https://github.com/AlbertoContento/Proyecto-TailWind/blob/main/assets/Captura%20de%20pantalla.png)
+![Pantalla Principal](https://github.com/AlbertoContento/Proyecto-BootStrap/blob/main/Bootstrap/media/Captura%20de%20pantalla.png)
