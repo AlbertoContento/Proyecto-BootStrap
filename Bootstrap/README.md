@@ -1,4 +1,4 @@
-# 🌐 Proyecto Vite con Tailwind CSS v3, PostCSS y Autoprefixer
+# 🌐 Proyecto Vite con BOOTSTRAP 5.3.3
 
 Este proyecto es una plantilla básica que integra Vite con BootStrap version 5.3.3.
 
