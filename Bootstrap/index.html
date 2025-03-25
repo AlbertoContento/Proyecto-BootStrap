@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BootStrap</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <!-- header/nav -->
+    <header>
+      <nav class="navbar navbar-expand-md bg-light shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="./src/favicon.svg" alt="logo" />
+            <span class="ms-3">My portfolio</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            controls="navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Skills</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="py-5 hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="display-4 fw-bold">Welcome to my page</h1>
+            <p class="lead">
+              Discover my projects and skills. I am a web developer with a
+              passion for creating beautiful and functional websites.
+            </p>
+            <div class="">
+              <a href="#" class="btn btn-primary">View Projects</a>
+              <a href="#" class="btn btn-outline-primary">View Skills</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="./src/hero.jpg"
+              alt="hero"
+              class="hero-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us -->
+    <section class="py-5 about-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center">
+            <img
+              src="./src/about.jpg"
+              alt="about"
+              class="about-image"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2 class="display-4 fw-bold">About Me</h2>
+            <p class="lead">
+              We are a team of web developers with a passion for creating
+              beautiful and functional websites. We specialize in web design,
+              web development, and graphic design.
+            </p>
+            <div class="row text-center g-3 mt-4">
+              <div class="col-md-4">
+                <div class="card border-0 bg-light shadow p-3">
+                  <h3 class="fw-bold">150+</h3>
+                  <p>
+                    Projects completed
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 bg-light shadow p-3">
+                  <h3 class="fw-bold">120</h3>
+                  <p>
+                    Satisfied clients
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 bg-light shadow p-3">
+                  <h3 class="fw-bold">10</h3>
+                  <p>
+                    Years of Experience
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-5 project-section bg-light">
+      <div class="container">
+      <h2 class="fw-bold text-center mb-5">My Projects</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card project-card p-3">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">
+                  A brief description of the project 1.
+                </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project-card p-3">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">
+                  A brief description of the project 2.
+                </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project-card p-3">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">
+                  A brief description of the project 3.
+                </p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-success-subtle">
+      <div class="container">
+        <h2 class="fw-bold text-center mb-5">Our Skills</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card skill-card p-3">
+              <h5 class="fw-bold">Skill 1</h5>
+              <p>Description of Skill 1.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card skill-card p-3">
+              <h5 class="fw-bold">Skill 2</h5>
+              <p>Description of Skill 2.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card skill-card p-3">
+              <h5 class="fw-bold">Skill 3</h5>
+              <p>Description of Skill 3.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+      <p>&copy; 2025 My Portfolio</p>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
